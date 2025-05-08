@@ -1,1 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Estilo, Tu Tienda</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="header">
+        <div class="logo-container">
+            <img id="header-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE20DlxrJlTxYZRAt-GXRHbKnUE-5B502WYA&s" alt="Logo de la Tienda">
+        </div>
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#novedades">Novedades</a></li>
+                <li><a class="nav-link" href="#colecciones">Colecciones</a></li>
+                <li><a class="nav-link" href="#ofertas">Ofertas</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h1>Encuentra tu Próximo Look</h1>
+                <p class="hero-subtitle">Descubre las últimas tendencias y expresa tu estilo único.</p>
+                <form id="form" action="https://www.freecodecamp.com/email-submit">
+                    <input type="email" name="email" id="email" placeholder="Introduce tu correo electrónico">
+                    <input type="submit" id="submit" value="Recibe nuestras novedades">
+                </form>
+            </div>
+        </section>
+
+        <section id="novedades" class="info-section">
+            <h2>Recién Llegado</h2>
+            <div class="grid-container">
+                <div class="product-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThjp5vA3hz6UoqFyLcJ2iFnwSSwW8Ij5gc9Q&s" alt="Vestido Nuevo">
+                    <h3>Abrigos worlship</h3>
+                    <p>Elegancia urbana  para cualquier ocasión.</p>
+                    <a href="#" class="button">Ver Detalles</a>
+                </div>
+                <div class="product-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_gOGEfc1KWYabgNqNjyWXPmCXmaWoEn4Mc-Y7rSXIJTfACEzRVsggm8kbgBg-fXquRp8&usqp=CAU" alt="Camiseta Nueva">
+                    <h3>Camiseta Gráfica Urbana</h3>
+                    <p>Comodidad con un toque de estilo callejero.</p>
+                    <a href="#" class="button">Ver Detalles</a>
+                </div>
+                <div class="product-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqWl6ay8EfLLM9XLEd_5MTjqx4FAmKI2ZnSw&s" alt="Pantalón Nuevo">
+                    <h3>Añade mas estilo con gorras</h3>
+                    <p>Ligero y perfecto para los días cálidos.</p>
+                    <a href="#" class="button">Ver Detalles</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="colecciones" class="info-section">
+            <h2>Nuestras Colecciones Destacadas</h2>
+            <div class="video-container">
+                <iframe id="video" width="560" height="315" src="https://youtu.be/tAAyZoDWphs" title="Vídeo de Colección de Ropa" frameborder="0" allow="accelerate; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <p>Explora nuestras colecciones cuidadosamente seleccionadas para cada temporada y estilo.</p>
+        </section>
+
+        <section id="ofertas" class="info-section">
+            <h2>¡No te pierdas nuestras Ofertas!</h2>
+            <div class="flex-container">
+                <div class="offer-item">
+                    <h3>Abrigos de Invierno</h3>
+                    <p>Hasta un 50% de descuento.</p>
+                    <a href="#" class="button special">Ver Ofertas</a>
+                </div>
+                <div class="offer-item">
+                    <h3>Accesorios de Verano</h3>
+                    <p>2x1 en artículos seleccionados.</p>
+                    <a href="#" class="button special">Ver Ofertas</a>
+                </div>
+                <div class="offer-item">
+                    <h3>Calzado Deportivo</h3>
+                    <p>Envíos gratis en compras superiores a $50.</p>
+                    <a href="#" class="button special">Ver Ofertas</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Tu Estilo, Tu Tienda</p>
+    </footer>
+</body>
+</html>
